@@ -1,0 +1,38 @@
+%------------------------------------------------------------------------------
+%
+%   Main TEX file
+%
+%------------------------------------------------------------------------------
+
+\documentclass[a4paper,twoside]{article}
+ 
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{booktabs, amsmath, amssymb, array}
+\usepackage{graphicx, subcaption, float}
+    \graphicspath{ {images/} }
+
+\usepackage{epsfig}
+\usepackage{subcaption}
+\usepackage{.packages/apalike}
+\usepackage[bottom]{footmisc}    
+\usepackage{.packages/SCITEPRESS}
+
+
+\begin{document}
+
+    \input{sections/title.tex}
+
+    % Sections
+    \input{sections/introduction.tex}
+    \input{sections/relatedwork.tex}
+    \input{sections/method.tex}
+    \input{sections/evaluation.tex}
+    \input{sections/conclusion.tex}
+
+    % Bibliography
+    \bibliographystyle{.packages/apalike}
+    {\small
+    \bibliography{references}}
+
+\end{document}

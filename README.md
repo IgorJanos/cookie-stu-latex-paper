@@ -1,2 +1,3 @@
 # cookie-stu-latex-paper
-Latex Paper Project Template
+Cookiecutter template for LaTeX scientific papers
+
