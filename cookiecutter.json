@@ -1,3 +1,10 @@
 {
-  "project_name": "paper1"
+  "project_name": "paper1",
+  "_copy_without_render": [
+        "*.cls",
+        "*.tex",
+        "*.bib",
+        ".packages/*",
+        ".sections/*"
+    ]
 }
